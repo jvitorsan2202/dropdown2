@@ -1,0 +1,338 @@
+@font-face {
+  font-family: terminal;
+  src: url(terminal.ttf);
+}
+
+/* CSS do index*/
+.index {
+  font-family: terminal;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #030375;
+  color: #c4c4c4;
+}
+
+.oqestudo{
+  font-family: terminal;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #030375;
+  color: #c4c4c4;
+}
+
+.qse{
+  font-family: terminal;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #030375;
+  color: #c4c4c4;
+}
+
+/* -> CSS do poo - PÁGINA DE MATÉRIA*/
+.poo {
+  font-family: terminal;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #030375;
+  color: #c4c4c4;
+}
+
+/* -> CSS do Analise de Sistemas - PÁGINA DE MATÉRIA*/
+.anl {
+  font-family: terminal;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #030375;
+  color: #c4c4c4;
+}
+
+/* -> CSS do pBancos de Dados - PÁGINA DE MATÉRIA*/
+
+.fbd {
+  font-family: terminal;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #030375;
+  color: #c4c4c4;
+}
+
+/* CSS do analise_sistemas - Dentro da página*/
+h3 {
+  font-style: normal;
+  font-weight: normal;
+  border-radius: 8px;
+  width: 250px;
+  color: rgb(233, 232, 232);
+  background-color: #db5b1a;
+  box-shadow: 0px 2px #a74514;
+}
+
+h4 {
+  background-color: #676aaa;
+  font-style: normal;
+  font-weight: normal;
+
+  border-radius: 8px;
+  width: 85px;
+  color: rgb(233, 232, 232);
+}
+h5 {
+  font-style: normal;
+  font-weight: normal;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+/* Padrão de barra de título e descrição*/
+.descricao {
+  font-size: 15px;
+  text-align: left;
+  width: 500px;
+  background-color: #a4acfc;
+  color: #000;
+}
+
+.T_barra {
+  background-color: #030375;
+  font-style: normal;
+  font-weight: normal;
+
+  border-radius: 88px;
+  width: 250px;
+  height: 28px;
+  color: rgb(230, 230, 230);
+  font-size: 15px;
+}
+
+/* CSS da pagina de contato*/
+.contato_page {
+      font-family: terminal;
+      font-weight: normal;
+      font-style: normal;
+      background-color: #030375;
+      color: #c4c4c4;
+    }
+
+.topico_5 {
+  width: 300px;
+  height: 20px;
+}
+
+/*FORM CENTRO DE EDIÇÃO CSS*/
+form,
+textarea {
+  text-align: center;
+  width: 300px;
+  height: px;
+  margin: 20 auto;
+  border: 2px solid #c4c4c4 ;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0px 5px #666c8f;
+}
+input[type="text"] {
+  width: 250px;
+  text-align: left;
+  border: 2px #030375;
+  border-radius: 12px;
+  font-family: "Minecraft";
+  font-size: 12px;
+  outline: none;
+  font-size: 13px;
+  background-color: #030399;
+  color: #c4c4c4;
+  font-family: terminal;
+}
+
+input[type="email"] {
+  width: 250px;
+  text-align: left;
+  border: #030375;
+  border-radius: 12px;
+  font-family: "Minecraft";
+  font-size: 12px;
+  outline: none;
+  font-size: 13px;
+  background-color: #030399;
+  color: #c4c4c4;
+  font-family: terminal;
+}
+
+input[type="texti"] {
+  width: 250px;
+  height: 100;
+  text-align: left;
+  border: #030375;
+  border-radius: 12px;
+  font-family: "Minecraft";
+  font-size: 12px;
+}
+
+.return {
+  text-align: center;
+}
+
+.link_b {
+  text-decoration: none;
+  color: #c0c7de;
+  font-size: 13px;
+  border: 2px;
+  border-radius: 8px;
+  text-align: left;
+  width: 150px;
+}
+
+.link_b:hover {
+  background-color: #030370;
+  color: #c4c4c4;
+}
+
+.contato_b,
+textarea {
+  width: 80px;
+  height: 20px;
+  text-align: left;
+}
+
+.linha_separacao {
+  margin: 0 auto;
+  background-color: #868fbe;
+  border: 1px;
+  border-radius: 150px;
+  width: 100px;
+  height: 12px;
+}
+
+button {
+  background-color:#030399;
+  color: #c4c4c4;
+  font-family: "Minecraft";
+  border-radius: 12px;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  box-shadow: 0px 3px solid ;
+  font-family: terminal;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #040494;
+  color:#a7a7a7;
+}
+
+button:active {
+  box-shadow: 0px 2px;
+  font-size: 14px;
+  width: 99px;
+  height: 29px;
+  box-shadow: none;
+}
+
+.b_link {
+  text-decoration: none;
+  color: #db5b1a;
+}
+
+.b_link:hover {
+  background-color: #c5d837;
+  border-radius: 1px;
+  color: rgb(15, 15, 15);
+  text-decoration: none;
+}
+
+.emoji {
+  font-family: "CD-Icons";
+  src: "Cd-Incons.ttf" format(TrueType);
+  font-size: 22px;
+  padding: 0px;
+  text-align: center;
+  color: rgb(11, 75, 194);
+}
+.return {
+  text-align: center;
+}
+
+.caixa_sms,
+textarea {
+  width: 250px;
+  height: 100px;
+  max-height: 250px;
+  max-width: 250px;
+  outline: none;
+  background-color:#030399;
+  border-radius: solid #030399;
+  color: #c4c4c4;
+  font-family: terminal;
+}
+
+/*Elementos nav & ul*/
+
+
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 12px;
+color: #c4c4c4;
+}
+
+.navigation{
+list-style:none;
+border:none;
+float:left;
+color: #c4c4c4;
+}
+
+.navigation li{
+  position:relative;
+  float:left;
+  border: none;
+  }
+
+.navigation li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+
+.navigation li a:hover{
+background:#030370;
+color:#c4c4c4;
+}
+
+.navigation li  ul{
+  position:absolute;
+  top:25px;
+  left:0;
+  background-color:#a3a3a3;
+  display:none;
+  color: #c4c4c4;
+  }
+
+  .navigation li:hover ul, .navigation li.over ul{display:block;}
+
+  .navigation li ul li{
+    border:1px solid #030370;
+    display:block;
+    width:150px;
+  }
+  navigation, li, a{
+    color: #c4c4c4;
+  }
+
+
+/*sobre_pagina*/
+.sobre{
+    font-family: terminal;
+    background-color: #030375;
+    color: #c4c4c4;
+}
+
+p{
+  width: 450px;
+  background-color: #030375;
+  color:#c4c4c4;
+}
+
+.navigation, a{
+  color: #c4c4c4;
+}
